@@ -1,0 +1,161 @@
+#titulo{
+    border-style: ridge;
+    border-width: 5px;
+    border-color: cornflowerblue;
+    background-color: cornflowerblue;
+    font-family: Calibri;
+    font-style: normal ;
+    font-size: medium;
+    text-align: center;
+}
+
+#titulo_2{
+    font-family: Arial;
+    font-size: 15pt;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.classe1 {
+    border-style: ridge;
+    border-width: 5px;
+    border-color:cornflowerblue;
+    background-color:cornflowerblue;
+    font-family: Calibri;
+    font-style: normal;
+    font-size: medium;
+    display: flex;
+    justify-content: space-around;
+}
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#labirinto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+canvas {
+    border: 3px solid #000000;
+    background-color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+#jogar{
+    position: absolute;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+}
+
+
+#botao1 {
+    position: absolute;
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+}
+
+#botao2 {
+    position: absolute;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px
+}
+
+#botao3 {
+    position: absolute;
+    margin-top: 125px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px
+}
+
+#reiniciar{
+    position: absolute;
+    margin-top: 175px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 175px
+}
+
+.comojogar {
+    position: absolute;
+    margin-top: 50px;
+    right: 110px;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.sobre_b{
+    border-style: ridge;
+    border-width: 5px;
+    border-color: lightskyblue;
+    background-color: lightskyblue;
+    width: 600px;
+    height: 200px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+   /* justify-content: space-around;*/
+}
+
+.sobre_jogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.sobre_jogo_b{
+    border-style: ridge;
+    border-width: 5px;
+    border-color: lightskyblue;
+    background-color: lightskyblue;
+    width: 800px;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+body{
+    background-color: lightsteelblue;
+    text-align: center;
+    font-family: Arial;
+}
+
+
